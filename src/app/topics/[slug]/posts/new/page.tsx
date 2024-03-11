@@ -1,14 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-interface Props {
+interface Props {}
+
+const PostCreatePage: React.FC<Props> = ({}) => {
+    return <div>post create page</div>
 }
 
-const PostCreatePage: React.FC<Props> = ({ }) => {
-	return (
-		<div>
-			post create page
-		</div>
-	);
-};
-
-export default PostCreatePage;
+export default PostCreatePage
